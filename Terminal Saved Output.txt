@@ -1,0 +1,117 @@
+Last login: Wed Oct 22 10:55:12 on console
+bavil-s210@Staff-Q2669DWN20 ~ % cd desktop
+bavil-s210@Staff-Q2669DWN20 desktop % ls
+Avila, Brayan
+BestBuy
+ClownMayhem
+DesignImages.zip
+FederatedGroup
+GitIntroductionP3
+Screenshot 2025-08-19 at 10.08.27 AM.png
+Screenshot 2025-08-19 at 10.08.45 AM.png
+Screenshot 2025-08-19 at 10.13.12 AM.png
+Screenshot 2025-08-19 at 10.18.10 AM.png
+Screenshot 2025-08-19 at 10.23.42 AM.png
+Screenshot 2025-08-19 at 10.39.07 AM.png
+Screenshot 2025-08-19 at 10.45.01 AM.png
+Screenshot 2025-08-20 at 11.04.11 AM.png
+Screenshot 2025-08-20 at 11.04.31 AM.png
+Screenshot 2025-08-20 at 11.06.19 AM.png
+Screenshot 2025-08-20 at 11.07.01 AM.png
+Screenshot 2025-08-20 at 11.07.13 AM.png
+Screenshot 2025-08-21 at 10.28.40 AM.png
+Screenshot 2025-08-21 at 10.36.39 AM.png
+Screenshot 2025-08-22 at 10.11.06 AM.png
+Screenshot 2025-08-22 at 10.14.09 AM.png
+Screenshot 2025-08-26 at 10.46.02 AM.png
+Screenshot 2025-08-28 at 10.50.37 AM.png
+Screenshot 2025-08-29 at 10.47.44 AM.png
+Screenshot 2025-09-02 at 10.10.42 AM.png
+Screenshot 2025-09-11 at 10.27.35 AM.png
+Screenshot 2025-09-11 at 10.54.25 AM.png
+Screenshot 2025-09-12 at 10.49.26 AM.png
+Screenshot 2025-09-17 at 10.54.29 AM.png
+Screenshot 2025-09-17 at 11.04.17 AM.png
+Screenshot 2025-09-19 at 10.08.13 AM.png
+Screenshot 2025-09-22 at 10.41.24 AM.png
+Screenshot 2025-09-23 at 10.43.54 AM.png
+Screenshot 2025-09-25 at 10.42.22 AM.png
+Screenshot 2025-09-26 at 10.04.07 AM.png
+Screenshot 2025-10-02 at 10.47.26 AM.png
+Screenshot 2025-10-13 at 10.17.14 AM.png
+Screenshot 2025-10-13 at 10.17.29 AM.png
+Screenshot 2025-10-13 at 10.32.13 AM.png
+Screenshot 2025-10-13 at 10.39.24 AM.png
+Screenshot 2025-10-21 at 10.23.19 AM.png
+Terminaltest
+Valestine.ttf
+VimOnYourOwn
+VimPractice
+Visual Studio Code 10.10.57 AM.app
+Website images
+astro-website
+demo folder
+desktop copy.psd
+fonts.psd
+funny
+gitcomponents.png
+man
+side-view-adult-meditating-with-light.jpg
+valestine.zip
+winnie2.psb
+bavil-s210@Staff-Q2669DWN20 desktop % cd VimOnYourOwn
+bavil-s210@Staff-Q2669DWN20 VimOnYourOwn % Vim index.html 
+
+<!doctype html>
+<html lang="en">
+<head>
+<title>
+Vim On Your Own
+ </title>
+
+
+</head>
+<body>
+<h1> Vim On Your Own </h1>
+
+</body>
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+-- INSERT --
+  [Restored Oct 23, 2025 at 10:48:00 AM]
+Last login: Thu Oct 23 10:30:24 on console
+Restored session: Wed Oct 22 11:04:47 PDT 2025
+bavil-s210@Staff-Q2669DWN20 VimOnYourOwn % vim index.html  
+
+<!doctype html>
+<heml lang="eng">
+<head>
+<title>
+Vim On Your Own
+</title>
+</head>
+<body>
+<h1> Vim On Your Own </h1>
+<h2> Vim Commands</h2>
+</body>
+
+
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+-- INSERT --

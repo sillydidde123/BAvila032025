@@ -1,0 +1,100 @@
+html{
+scroll-behavior: smooth;
+
+}
+
+
+body{
+background-color: black;
+}
+
+
+.container{
+max-width: 75rem;
+min-height: 10rem;
+margin: auto;
+background-color: white;
+padding:1rem;
+}
+
+
+#pageheader {
+    background-color: darkgray;
+min-height:auto;
+padding:1rem;
+}
+
+#logo{
+background-image:url(Images/best\ one.png);
+width: 6.25rem;
+height: 6.25rem;
+border:1px solid none
+;
+}
+
+#pageheader .container{
+min-height: auto;
+
+}
+#pageheader nav{
+text-align: center;
+
+}
+
+#media {background-color: lightgreen;
+min-height: 10rem;
+padding: 1rem;
+background-image:url(Images/heroimage.png);
+background-size: cover;
+aspect-ratio: 16 / 9;
+}
+#career {background-color: aqua;
+min-height: 10rem;
+padding: 1rem;
+}
+#pagecontent {background-color: white;
+min-height: 10rem;
+padding: 1rem;
+}
+#semester1 {background-color:aqua;
+min-height: 10rem;
+padding: 1rem;
+}
+#semester2 {background-color: white;
+min-height: 10rem;
+padding: 1rem;
+}
+#pagefooter {background-color: aqua;
+min-height:auto;
+padding: 1rem;
+}
+
+
+
+#pagefooter .container{
+min-height: auto;
+text-align: center;
+
+}
+#aifooter{
+    background-color: aqua;
+    padding: 1rem;
+    min-height: auto;}
+
+
+ #aifooter .container{
+min-height: auto;
+text-align: center;
+
+ }
+#subfooter {background-color: aqua;
+min-height: auto;
+padding: 1rem;
+text-align: center;
+}
+audio{
+border: 5px solid lightblue;
+background-color: lightblue;
+display: block;
+margin: auto;
+}
