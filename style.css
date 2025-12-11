@@ -87,7 +87,7 @@ min-height: auto;
 text-align: center;
 
  }
-#subfooter {background-color: aqua;
+#subfooter{background-color: aqua;
 min-height: auto;
 padding: 1rem;
 text-align: center;
@@ -97,4 +97,14 @@ border: 5px solid lightblue;
 background-color: lightblue;
 display: block;
 margin: auto;
+}
+
+@media screen and (min-width:650px)
+{
+#pagecontent{background-color: red;}
+}
+
+@media screen and (min-width:1000px)
+{
+#pagecontent{background-color: purple;}
 }
