@@ -36,19 +36,34 @@ border:1px solid none
 min-height: auto;
 
 }
-#pageheader nav{
-text-align: center;
+#pageheader nav {
+display: block;
+}
 
+#pageheader nav ul{
+    background-color: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#pageheader nav ul li {
+    background-color: none;
+    border: 2px solid black;
+    padding: 1rem;
+    margin: 2px;
+}
+#pageheader nav ul li:hover {
+    background-color: gray;
 }
 
 #media {background-color: lightgreen;
 min-height: 10rem;
 padding: 1rem;
-background-image:url(Images/heroimage.png);
+background-image:url(Images/fnaf-five-nights-at-3840x2160-9478.jpg);
 background-size: cover;
 aspect-ratio: 16 / 9;
 }
-#career {background-color: aqua;
+#career {background-color: black;
 min-height: 10rem;
 padding: 1rem;
 }
@@ -60,7 +75,7 @@ padding: 1rem;
 min-height: 10rem;
 padding: 1rem;
 }
-#semester2 {background-color: white;
+#semester2 {background-color: red;
 min-height: 10rem;
 padding: 1rem;
 }
@@ -99,12 +114,18 @@ display: block;
 margin: auto;
 }
 
-@media screen and (min-width:650px)
+@media screen and (min-width:600px)
 {
-#pagecontent{background-color: red;}
-}
+    #pageheader nav ul {
+        margin-top: 2rem;
+    }
 
-@media screen and (min-width:1000px)
-{
-#pagecontent{background-color: purple;}
+#pageheader nav ul li
+{display: inline;}
+
+#pagecontent
+{background-color: red;}
+
+#pagecontent
+{background-color: black;}
 }
