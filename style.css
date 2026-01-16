@@ -19,7 +19,7 @@ padding:1rem;
 
 
 #pageheader {
-    background-color: darkgray;
+    background-color: black;
 min-height:auto;
 padding:1rem;
 }
@@ -56,7 +56,7 @@ display: block;
     background-color: gray;
 }
 
-#media {background-color: lightgreen;
+#media {background-color: black;
 min-height: 10rem;
 padding: 1rem;
 background-image:url(Images/fnaf-five-nights-at-3840x2160-9478.jpg);
@@ -71,11 +71,11 @@ padding: 1rem;
 min-height: 10rem;
 padding: 1rem;
 }
-#semester1 {background-color:aqua;
+#semester1 {background-color:black;
 min-height: 10rem;
 padding: 1rem;
 }
-#semester2 {background-color: red;
+#semester2 {background-color: black;
 min-height: 10rem;
 padding: 1rem;
 }
@@ -94,7 +94,8 @@ text-align: center;
 #aifooter{
     background-color: aqua;
     padding: 1rem;
-    min-height: auto;}
+    min-height: auto;
+text-align: center;}
 
 
  #aifooter .container{
@@ -124,7 +125,7 @@ margin: auto;
 {display: inline;}
 
 #pagecontent
-{background-color: red;}
+{background-color: black}
 
 #pagecontent
 {background-color: black;}
