@@ -79,7 +79,8 @@ padding: 1rem;
 min-height: 10rem;
 padding: 1rem;
 }
-#pagefooter {background-color: aqua;
+#pagefooter {
+background-color: aqua;
 min-height:auto;
 padding: 1rem;
 }
