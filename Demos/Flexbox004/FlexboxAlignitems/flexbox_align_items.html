@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flexbox Justify-content</title>
+    <title>Flexbox Align Items</title>
+
     <style>
       h1,
       h2 {
@@ -13,48 +14,55 @@
         border: 5px solid black;
         background-color: lightblue;
         margin: 1rem;
-        display: flex;
-        justify-content: flex-end;
-        justify-content: center;
-        justify-content: flex-start;
-        justify-content: space-between;
-        justify-content: space-around;
-        justify-content: space-evenly;
       }
+
       #container002 {
         border: 5px solid black;
-        background-color: lightgreen;
+        background-color: lightcoral;
         margin: 1rem;
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: row-reverse;
       }
       #container003 {
         border: 5px solid black;
-        background-color: red;
+        background-color: slateblue;
         margin: 1rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        height: 700px;
       }
       .box {
         border: 1px solid black;
-        background-color: lightskyblue;
-        width: 100px;
-        height: 100px;
-        padding: 0.5rem;
+        background-color: lightgoldenrodyellow;
+        width: 25px;
+        height: 25px;
+        padding: 1rem;
+        font-size: 10px;
       }
-      @media screen and (min-width: 800px) {
-        body {
-          background-color: white;
+      @media screen and (min-width: 800px;) {
+        #container001 {
+          background-color: red;
+          min-height: 800px;
+          display: flex;
+        }
+
+        #container002 {
+          background-color: steelblue;
+          min-height: 800px;
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+        }
+        #container003 {
+          background-color: burlywood;
+          min-height: 800px;
+          display: flex;
+          justify-content: flex-start;
+          align-items:;
         }
       }
     </style>
   </head>
+
   <body>
     <h1>Flexbox</h1>
-    <h2>Justify-Content</h2>
+    <h2>Align Items</h2>
+
     <ul>
       <li>flex-end</li>
       <li>center</li>
@@ -63,6 +71,7 @@
       <li>space-around</li>
       <li>space-evenly</li>
     </ul>
+
     <h2>Container001</h2>
     <div id="container001">
       <div class="box">Item001</div>
@@ -70,22 +79,35 @@
       <div class="box">Item003</div>
       <div class="box">Item004</div>
       <div class="box">Item005</div>
+      <div class="box">Item006</div>
+      <div class="box">Item007</div>
+      <div class="box">Item008</div>
+      <div class="box">Item009</div>
+      <div class="box">Item010</div>
     </div>
-    <h2>Container002</h2>
     <div id="container002">
       <div class="box">Item001</div>
       <div class="box">Item002</div>
       <div class="box">Item003</div>
       <div class="box">Item004</div>
       <div class="box">Item005</div>
+      <div class="box">Item006</div>
+      <div class="box">Item007</div>
+      <div class="box">Item008</div>
+      <div class="box">Item009</div>
+      <div class="box">Item010</div>
     </div>
-    <h2>Container003</h2>
     <div id="container003">
       <div class="box">Item001</div>
       <div class="box">Item002</div>
       <div class="box">Item003</div>
       <div class="box">Item004</div>
       <div class="box">Item005</div>
+      <div class="box">Item006</div>
+      <div class="box">Item007</div>
+      <div class="box">Item008</div>
+      <div class="box">Item009</div>
+      <div class="box">Item010</div>
     </div>
   </body>
 </html>
