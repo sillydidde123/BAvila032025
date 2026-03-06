@@ -1,133 +1,150 @@
-html{
-scroll-behavior: smooth;
+/* Mobile Styles Default */
 
+:root {
+  --primary-color: #4a210e;
+  --secondary-color: #4a210e;
+  --tertiary-color: #4a210e;
+  --main-font: arial;
 }
 
-
-body{
-background-color: black;
+html {
+  scroll-behavior: smooth;
 }
 
-
-.container{
-max-width: 75rem;
-min-height: 10rem;
-margin: auto;
-background-color: white;
-padding:1rem;
+body {
+  background-color: var(--primary-color);
 }
 
+.container {
+  max-width: 75rem;
+  min-height: 10rem;
+  margin: auto;
+  background-color: none;
+  padding: 1rem;
+}
 
 #pageheader {
-    background-color: black;
-min-height:auto;
-padding:1rem;
+  background-color: white;
+  min-height: auto;
+  padding: 0.25rem;
 }
 
-#logo{
-background-image:url(Images/best\ one.png);
-width: 6.25rem;
-height: 6.25rem;
-border:1px solid none
-;
+#logo {
+  background-image: url(Images/best\ one.png);
+  width: 6.25rem;
+  height: 6.25rem;
+  border: 1px solid none;
+  margin: auto;
+  transition: all 2s;
 }
 
-#pageheader .container{
-min-height: auto;
-
+#pageheader .container {
+  min-height: auto;
 }
 #pageheader nav {
-display: block;
+  display: block;
 }
 
-#pageheader nav ul{
-    background-color: none;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+#pageheader nav ul {
+  background-color:;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 #pageheader nav ul li {
-    background-color: none;
-    border: 2px solid black;
-    padding: 1rem;
-    margin: 2px;
+  background-color: none;
+  border: 2px solid white;
+  padding: 1rem;
+  margin: 2px;
 }
 #pageheader nav ul li:hover {
-    background-color: gray;
+  background-color: gray;
 }
 
-#media {background-color: black;
-min-height: 10rem;
-padding: 1rem;
-background-image:url(Images/fnaf-five-nights-at-3840x2160-9478.jpg);
-background-size: cover;
-aspect-ratio: 16 / 9;
+#media {
+  background-color: white;
+  min-height: 10rem;
+  padding: 1rem;
+  background-image: url(Images/fnaf-five-nights-at-3840x2160-9478.jpg);
+  background-size: cover;
+  aspect-ratio: 16 / 9;
 }
-#career {background-color: black;
-min-height: 10rem;
-padding: 1rem;
+#career {
+  background-color: white;
+  min-height: 10rem;
+  padding: 1rem;
 }
-#pagecontent {background-color: white;
-min-height: 10rem;
-padding: 1rem;
+#pagecontent {
+  background-color: white;
+  min-height: 10rem;
+  padding: 1rem;
 }
-#semester1 {background-color:black;
-min-height: 10rem;
-padding: 1rem;
+#semester1 {
+  background-color: white;
+  min-height: 10rem;
+  padding: 1rem;
+  border: solid 20px;
 }
-#semester2 {background-color: black;
-min-height: 10rem;
-padding: 1rem;
+#semester2 {
+  background-color: white;
+  min-height: 10rem;
+  padding: 1rem;
+  border: solid 20px;
 }
 #pagefooter {
-background-color: aqua;
-min-height:auto;
-padding: 1rem;
+  background-color: white;
+  min-height: auto;
+  padding: 1rem;
 }
 
-
-
-#pagefooter .container{
-min-height: auto;
-text-align: center;
-
+#pagefooter .container {
+  min-height: auto;
+  text-align: center;
 }
-#aifooter{
-    background-color: aqua;
-    padding: 1rem;
-    min-height: auto;
-text-align: center;}
-
-
- #aifooter .container{
-min-height: auto;
-text-align: center;
-
- }
-#subfooter{background-color: aqua;
-min-height: auto;
-padding: 1rem;
-text-align: center;
-}
-audio{
-border: 5px solid lightblue;
-background-color: lightblue;
-display: block;
-margin: auto;
+#aifooter {
+  background-color: white;
+  padding: 1rem;
+  min-height: auto;
+  text-align: center;
 }
 
-@media screen and (min-width:600px)
-{
-    #pageheader nav ul {
-        margin-top: 2rem;
-    }
-
-#pageheader nav ul li
-{display: inline;}
-
-#pagecontent
-{background-color: black}
-
-#pagecontent
-{background-color: black;}
+#aifooter .container {
+  min-height: auto;
+  text-align: center;
 }
+#subfooter {
+  background-color: white;
+  min-height: auto;
+  padding: 1rem;
+  text-align: center;
+}
+audio {
+  border: 5px solid none;
+  background-color: none;
+  display: block;
+  margin: auto;
+}
+/* Tablet View */
+
+@media screen and (min-width: 600px) {
+  #pageheader nav ul {
+    margin-top: 2rem;
+  }
+
+  #logo {
+    margin: 0;
+  }
+
+  #pageheader nav ul li {
+    display: inline;
+  }
+
+  #pagecontent {
+    background-color: black;
+  }
+
+  #pagecontent {
+    background-color: black;
+  }
+}
+/* Desktop View */
