@@ -125,21 +125,19 @@ audio {
   display: block;
   margin: auto;
 }
-p {
-  color: white;
-}
 
 .creepster-regular {
   font-family: "Creepster", system-ui;
   font-weight: 400;
   font-style: normal;
-  color: white;
+  color: black;
 }
 
 .shadows-into-light-two-regular {
   font-family: "Shadows Into Light Two", cursive;
   font-weight: 400;
   font-style: normal;
+  color: white;
 }
 /* Tablet View */
 
